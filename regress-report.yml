@@ -82,18 +82,6 @@ test-cases:
 
 bugreports:
   - summary: |
-      
-    environment: |
-      Safari Версия 14.1.2 (14611.3.10.1.7)
-    steps-to-reproduce: |
-      1. Попав на стартовую страницу выбираем товар iPhoneX
-      2. Кликаем на название товара, либо на описание, либо на цену
-    expected-result: |
-      Попадаем на страницу карточки товара https://products-store-git-v2bugfixes-hexlet-components.vercel.app/products/2
-    actual-result: |
-      Ничего не происходит, кликать нельзя
-      
-  - summary: |
       Нельзя перейти в карточку товара, нажав на описание и название товара на главной странице
     environment: |
       Safari Версия 14.1.2 (14611.3.10.1.7)
