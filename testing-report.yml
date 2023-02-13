@@ -1,6 +1,38 @@
 ---
 - summary: |
+    Проверка работоспособности сайта в браузере Yandex
+  status: pass
+  
+- summary: |
+    Проверка работоспособности сайта в браузере Safari
+  status: pass
+  
+- summary: |
+    Проверка мобильной версии сайта на Samsung Galaxy S8+
+  status: fail
+  
+- summary: |
+    Проверка мобильной версии сайта на iPhone 6/7/8 Plus
+  status: fail
+  
+- summary: |
+    Проверка перехода в категорию товара по хештегу на странице карточки товара
+  status: fail
+  
+- summary: |
+    Проверка навигации по страницам каталога сайта
+  status: pass
+
+- summary: |
+    Проверка оформления заказа на сайте
+  status: pass
+
+- summary: |
     Проверка фильтрации товаров по категории
+  status: pass
+
+- summary: |
+    Проверка фильтрации товаров по бренду
   status: pass
 
 - summary: |
